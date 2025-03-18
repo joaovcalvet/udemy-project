@@ -10,6 +10,6 @@ class ContatoController extends Controller
 {
     public function contato(): View|Factory
     {
-        return view(view: "site.contato");
+        return view("site.contato");
     }
 }
